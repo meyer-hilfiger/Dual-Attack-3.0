@@ -1,0 +1,8 @@
+This supplementary is made for the rebuttal of Eurocrypt 2024 relative to the paper "Reduction from sparse to plain LPN and application to RLPN decoding, Statistical Decoding 3.0"
+
+The files are meant to verify the complexity claims made in the paper.
+
+---------
+- doubleRLPN_BJMM12.csv - Contains, for different code rates, the optimized relative core parameters (s,k_aux,t_aux,w,u) of the doubleRLPN decoder (Section 3.2, Algorithm 1) when using BJMM12 technique to compute low-weight parity-checks. The auxilary parameters of the algorithm (N_aux, and the parameters relatives to the Dumer ISD used in the algorithm are directly included in complexity_doubleRLPN_BJMM12.py)
+- complexity_doubleRLPN_BJMM12.py - Using the relative parameters contained in the file "doubleRLPN_BJMM12.csv" this script computes (using the formula in Appendix C.4, Proposition C.4) and output the time and space complexity exponent of the doubleRLPN decoder. This script also verifies that the parameters meet the constraints of Proposition C.4.
+--------
