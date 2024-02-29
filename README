@@ -1,0 +1,5 @@
+- Complexity\_claim: contains the files required to verify the asymptotic time and space complexity claims made for the double RLPN algorithm. In particular, it contains the dataset with the optimal asymptotic parameters of the algorithm and a program to compute the complexity of doubleRLPN from this datasets using Formula of proposition C.4.
+
+- doubleRLPN: contains a program which implements parts of double RLPN and which was used to plot the experimental red curve of figure 6.1.
+
+- Lattice\_Prediction: contains a program which heuristically predicts the tail of the score function which appears in dual attacks in lattices. Namely, it computes figure 8.1.
