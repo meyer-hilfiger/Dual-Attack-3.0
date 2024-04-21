@@ -1,0 +1,6 @@
+# Commit n°2
+# Updated using the comments of the reviewer of the Artifact submission process of Eurocrypt 2024
+
+# Added documentation: Added README.pdf at root documenting the required dependencies, what to expect from the the programs and how to use them.
+# Added functionalities: A program which computes the expected number of false candidates under the Poisson Model and plot it against the output of doubleRLPN (as in Figure 2).
+# Corrected bad Proposition numbering
