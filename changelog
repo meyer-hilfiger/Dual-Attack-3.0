@@ -1,4 +1,11 @@
-# Commit n°2
+# Commit n°3 on Apr 30, 2024
+# Updated using the comments of the reviewer of the Artifact submission process of Eurocrypt 2024
+
+# Corrected typos and added comments in README.pdf
+# Simplified lattice score prediction files (output does not change)
+
+
+# Commit n°2 on Apr 21, 2024
 # Updated using the comments of the reviewer of the Artifact submission process of Eurocrypt 2024
 
 # Added documentation: Added README.pdf at root documenting the required dependencies, what to expect from the the programs and how to use them.
